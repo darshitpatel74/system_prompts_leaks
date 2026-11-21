@@ -52,7 +52,7 @@ The purpose of this repo is to document the System Prompt instructions for all t
 | **Claude Code (Opus 4.6)** | [**System prompt**](Anthropic/Claude%20Code/claude-code-opus-4.6.md) |
 | **Claude Opus 4.6** | [**System prompt**](Anthropic/claude-opus-4.6.md) |
 | **Claude Sonnet 4.6** | [**System prompt**](Anthropic/claude-sonnet-4.6.md) |
-| Claude.ai | [Anthropic Reminders](Anthropic/anthropic_reminders.md) |
+| Claude.ai | [Anthropic Reminders](Anthropic/anthropic_reminders.md) · [Sonnet 4.6 reminders](Anthropic/sonnet-4.6-reminders.md) · [Research mode](Anthropic/research_instructions.md) |
 
 <details><summary>Integrations, official prompts & older versions</summary>
 
@@ -60,6 +60,7 @@ The purpose of this repo is to document the System Prompt instructions for all t
 |--|--|
 | Integrations | [Cowork](Anthropic/claude-cowork.md) · [Cowork Dispatch](Anthropic/claude-cowork-dispatch.md) · [Desktop Code](Anthropic/claude-desktop-code.md) · [Design](Anthropic/claude-design.md) · [Mobile iOS](Anthropic/claude-mobile-ios.md) · [In Chrome](Anthropic/claude-in-chrome.md) · [For Excel](Anthropic/claude-for-excel.md) · [For Word](Anthropic/claude-for-word.md) · [In PowerPoint](Anthropic/claude-in-powerpoint.md) · [Default Styles](Anthropic/default-styles.md) |
 | Claude Code extras | [Glob tool](Anthropic/Claude%20Code/glob-tool.md) · [Grep tool](Anthropic/Claude%20Code/grep-tool.md) · [Deferred tools](Anthropic/Claude%20Code/deferred-tools.md) · [Docs assistant](Anthropic/Claude%20Code/claude-code-docs-assistant.md) · [Bundled skills](Anthropic/Claude%20Code/bundled-skills/) |
+| Claude Code v2.1.172 | [Fable 5](Anthropic/Claude%20Code/claude-code-2.1.172-fable-5.md) · [Opus 4.8](Anthropic/Claude%20Code/claude-code-2.1.172-opus-4.8.md) · [Opus 4.6](Anthropic/Claude%20Code/claude-code-2.1.172-opus-4.6.md) |
 | Published (`claude_behavior` at release date, not updated) | [Opus 4.8](Anthropic/Official/2026-05-28-claude-opus-4.8.md) · [Opus 4.7](Anthropic/Official/2026-04-16-claude-opus-4.7.md) · [Opus 4.6](Anthropic/Official/2026-02-05-claude-opus-4.6.md) · [Sonnet 4.6](Anthropic/Official/2026-02-17-claude-sonnet-4.6.md) · [All versions](Anthropic/Official/) |
 | Without tools | [Opus 4.6](Anthropic/claude-opus-4.6-no-tools.md) · [Sonnet 4.6](Anthropic/claude-sonnet-4.6-no-tools.md) |
 | Raw prompts | [Opus 4.6](Anthropic/raw/claude-opus-4.6-raw.md) · [Opus 4.6 (no tools)](Anthropic/raw/claude-opus-4.6-no-tools-raw.md) · [Sonnet 4.6](Anthropic/raw/claude-sonnet-4.6-raw.md) · [Sonnet 4.6 (no tools)](Anthropic/raw/claude-sonnet-4.6-no-tools-raw.md) |
@@ -81,7 +82,7 @@ The purpose of this repo is to document the System Prompt instructions for all t
 | **GPT-5.6** | [**ChatGPT (Sol, extra high)**](OpenAI/gpt-5.6-sol-extra-high.md) · [**Codex**](OpenAI/Codex/gpt-5.6.md) |
 | **GPT-5.5** | [**Thinking**](OpenAI/gpt-5.5-thinking.md) · [**Instant**](OpenAI/gpt-5.5-instant.md) · [API](OpenAI/gpt-5.5-api.md) · [Pro API](OpenAI/gpt-5.5-pro-api.md) · [**Codex**](OpenAI/Codex/gpt-5.5.md) · [Friendly](OpenAI/Codex/personality_friendly_gpt-5.5.md) · [Pragmatic](OpenAI/Codex/personality_pragmatic_gpt-5.5.md) |
 | **GPT-5.4** | [**API**](OpenAI/gpt-5.4-api.md) · [**Thinking**](OpenAI/gpt-5.4-thinking.md) · [**Codex**](OpenAI/Codex/gpt-5.4.md) · [Codex Mini](OpenAI/Codex/gpt-5.4-mini.md) |
-| **GPT-5.3** | [**Codex**](OpenAI/Codex/gpt-5.3-codex.md) · [Spark](OpenAI/Codex/gpt-5.3-codex-spark.md) · [Codex API](OpenAI/gpt-5.3-codex-api.md) · [Chat API](OpenAI/gpt-5.3-chat-api.md) · [Instant](OpenAI/gpt-5.3-instant.md) |
+| **GPT-5.3** | [**Codex**](OpenAI/Codex/old/gpt-5.3-codex.md) · [Spark](OpenAI/Codex/gpt-5.3-codex-spark.md) · [Codex API](OpenAI/gpt-5.3-codex-api.md) · [Chat API](OpenAI/gpt-5.3-chat-api.md) · [Instant](OpenAI/gpt-5.3-instant.md) |
 | **Codex CLI** | [Per-model prompts](OpenAI/Codex/) · [Spark](OpenAI/Codex/gpt-5.3-codex-spark.md) · [Plan mode](OpenAI/Codex/plan_mode.md) · [Personas](OpenAI/Codex/personality_friendly.md) · [Auto-review](OpenAI/Codex/codex-auto-review.md) |
 | **Tools** | [Web search](OpenAI/tool-web-search.md) · [Deep research](OpenAI/tool-deep-research.md) · [Python](OpenAI/tool-python.md) · [Python code](OpenAI/tool-python-code.md) · [Canvas](OpenAI/tool-canvas-canmore.md) · [Image gen](OpenAI/tool-create-image-image_gen.md) · [Memory](OpenAI/tool-memory-bio.md) · [Advanced memory](OpenAI/tool-advanced-memory.md) · [File search](OpenAI/tool-file_search.md) |
 | **Policies** | [Image safety](OpenAI/prompt-image-safety-policies.md) · [Automation context](OpenAI/prompt-automation-context.md) |
@@ -90,22 +91,23 @@ The purpose of this repo is to document the System Prompt instructions for all t
 
 | | |
 |--|--|
-| GPT-5.2 | [Mini (free)](OpenAI/gpt-5.2-mini-free-account.md) · [Thinking](OpenAI/gpt-5.2-thinking.md) · [Codex](OpenAI/Codex/gpt-5.2-codex.md) |
+| GPT-5.2 | [Mini (free)](OpenAI/gpt-5.2-mini-free-account.md) · [Thinking](OpenAI/gpt-5.2-thinking.md) · [Codex](OpenAI/Codex/old/gpt-5.2-codex.md) |
 | o4-mini | [System prompt](OpenAI/o4-mini.md) · [High](OpenAI/o4-mini-high.md) |
 | o3 | [System prompt](OpenAI/o3.md) |
 | ChatGPT Atlas | [System prompt](OpenAI/chatgpt-atlas.md) |
 | GPT-5.1 personalities | [Default](OpenAI/gpt-5.1-default.md) · [Friendly](OpenAI/gpt-5.1-friendly.md) · [Professional](OpenAI/gpt-5.1-professional.md) · [Candid](OpenAI/gpt-5.1-candid.md) · [Cynical](OpenAI/gpt-5.1-cynical.md) · [Efficient](OpenAI/gpt-5.1-efficient.md) · [Nerdy](OpenAI/gpt-5.1-nerdy.md) · [Quirky](OpenAI/gpt-5.1-quirky.md) |
-| GPT-5 | [Agent mode](OpenAI/chatgpt-gpt-5-agent-mode.md) · [Thinking](OpenAI/gpt-5-thinking.md) · [Cynic](OpenAI/gpt-5-cynic-personality.md) · [Listener](OpenAI/gpt-5-listener-personality.md) · [Nerdy](OpenAI/gpt-5-nerdy-personality.md) · [Robot](OpenAI/gpt-5-robot-personality.md) · [Codex](OpenAI/Codex/gpt-5-codex.md) · [Codex Mini](OpenAI/Codex/gpt-5-codex-mini.md) |
-| GPT-4.5 | [System prompt](OpenAI/gpt-4.5.md) |
+| GPT-5 | [Agent mode](OpenAI/chatgpt-gpt-5-agent-mode.md) · [Thinking](OpenAI/gpt-5-thinking.md) · [Cynic](OpenAI/gpt-5-cynic-personality.md) · [Listener](OpenAI/gpt-5-listener-personality.md) · [Nerdy](OpenAI/gpt-5-nerdy-personality.md) · [Robot](OpenAI/gpt-5-robot-personality.md) · [Codex](OpenAI/Codex/old/gpt-5-codex.md) · [Codex Mini](OpenAI/Codex/old/gpt-5-codex-mini.md) |
+| GPT-4.5 | [System prompt](OpenAI/gpt-4.5.md) · [ChatGPT (June 2026)](OpenAI/chatgpt-4.5.md) |
 | GPT-4.1 | [Full](OpenAI/gpt-4.1.md) · [Mini](OpenAI/gpt-4.1-mini.md) |
 | GPT-4o | [System prompt](OpenAI/gpt-4o.md) · [WhatsApp](OpenAI/gpt-4o-whatsapp.md) · [Advanced voice](OpenAI/gpt-4o-advanced-voice-mode.md) · [Legacy voice](OpenAI/gpt-4o-legacy-voice-mode.md) |
 | Monday GPT | [System prompt](OpenAI/monday-gpt.md) |
 | GPT-4o new personality | [System prompt](OpenAI/4o-2025-09-03-new-personality.md) |
 | Study and learn | [System prompt](OpenAI/study-and-learn.md) |
 | Image safety policies | [System prompt](OpenAI/image-safety-policies.md) |
-| API variants | [GPT-5 reasoning (high)](OpenAI/API/gpt-5-reasoning-effort-high-api.md) · [o3 high](OpenAI/API/o3-high-api.md) · [o3 med](OpenAI/API/o3-medium-api.md) · [o3 low](OpenAI/API/o3-low-api.md) · [o4-mini high](OpenAI/API/o4-mini-high.md) · [o4-mini med](OpenAI/API/o4-mini-medium-api.md) · [o4-mini low](OpenAI/API/o4-mini-low-api.md) |
+| API variants | [GPT-5 reasoning (high)](OpenAI/API/gpt-5-reasoning-effort-high-api.md) · [o3 high](OpenAI/API/o3-high-api.md) · [o3 med](OpenAI/API/o3-medium-api.md) · [o3 low](OpenAI/API/o3-low-api.md) · [o4-mini high](OpenAI/API/o4-mini-high.md) · [o4-mini med](OpenAI/API/o4-mini-medium-api.md) · [o4-mini low](OpenAI/API/o4-mini-low-api.md) · [Shared o3/o4-mini API message](OpenAI/API/README.md) |
 | Old o4-mini | [System prompt](OpenAI/Old/chatgpt.com-o4-mini.md) |
-| Codex (older) | [GPT-5](OpenAI/Codex/gpt-5.md) · [GPT-5.1](OpenAI/Codex/gpt-5.1.md) · [GPT-5.1 Codex](OpenAI/Codex/gpt-5.1-codex.md) · [GPT-5.1 Mini](OpenAI/Codex/gpt-5.1-codex-mini.md) · [GPT-5.1 Max](OpenAI/Codex/gpt-5.1-codex-max.md) · [GPT-5.2](OpenAI/Codex/gpt-5.2.md) · [5.2 Friendly](OpenAI/Codex/personality_friendly_gpt-5.2-codex.md) · [5.2 Pragmatic](OpenAI/Codex/personality_pragmatic_gpt-5.2-codex.md) |
+| Old GPT-4o mini | [System prompt](OpenAI/Old/chatgpt-4o-mini.txt) |
+| Codex (older) | [GPT-5](OpenAI/Codex/old/gpt-5.md) · [GPT-5.1](OpenAI/Codex/old/gpt-5.1.md) · [GPT-5.1 Codex](OpenAI/Codex/old/gpt-5.1-codex.md) · [GPT-5.1 Mini](OpenAI/Codex/old/gpt-5.1-codex-mini.md) · [GPT-5.1 Max](OpenAI/Codex/old/gpt-5.1-codex-max.md) · [GPT-5.2](OpenAI/Codex/old/gpt-5.2.md) · [5.2 Friendly](OpenAI/Codex/old/personality_friendly_gpt-5.2-codex.md) · [5.2 Pragmatic](OpenAI/Codex/old/personality_pragmatic_gpt-5.2-codex.md) |
 
 </details>
 
@@ -196,7 +198,8 @@ The purpose of this repo is to document the System Prompt instructions for all t
 
 | Product | Prompt |
 |---------|--------|
-| Le Chat | [System prompt](Mistral/le-chat.md) |
+| Le Chat / Vibe (Mistral Medium 3.5) | [System prompt](Mistral/mistral-medium-3.5.md) |
+| Mistral Code | [System prompt](Mistral/mistral-code.md) |
 
 ## Notion
 
@@ -215,6 +218,7 @@ The purpose of this repo is to document the System Prompt instructions for all t
 | Product | Prompt |
 |---------|--------|
 | Amp Code (Sourcegraph) | [System prompt](Misc/amp-code.md) |
+| Devin CLI (Cognition) | [System prompt](Misc/devin-cli.md) |
 | Docker Gordon AI | [System prompt](Misc/docker-gordon-ai.md) |
 | ElevenLabs Voice Agent | [System prompt](Misc/elevenlabs-voice-agent.md) |
 | OpenCode | [System prompt](Misc/opencode.md) |
@@ -238,6 +242,7 @@ The purpose of this repo is to document the System Prompt instructions for all t
 | Proton Lumo AI | [System prompt](Misc/proton-lumo-ai.md) |
 | Raycast AI | [System prompt](Misc/raycast-ai.md) |
 | Sesame AI Maya | [System prompt](Misc/sesame-ai-maya.md) |
+| Stack Overflow AI Assist | [System prompt](Misc/stack-overflow-ai-assist.md) |
 | t3.chat | [System prompt](Misc/t3.chat.md) |
 | t3 Code | [System prompt](Misc/t3-code.md) |
 
